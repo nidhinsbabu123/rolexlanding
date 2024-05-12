@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.firstnavbar{
+  background: linear-gradient(90deg, #0b3e27, #197149);
+  height: 110px;
+  position: fixed;
+  z-index: 10;
+  top: 1px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .menuoption{
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .menuicon{
+    color: white;
+    font-size: 30px;
+  }
+
+  img{
+    height: 43px;
+    width: 43px;
+  }
+
+  .logo{
+    margin-left: 73%;
+
+  }
+
+  .nav-group{
+    margin-right: 4%;
+    /* background-color: yellow; */
+    width: 1000px;
+  }
+
+  .nav-content a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+    /* background-color: black; */
+  }
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainVideo{
+  width: 100%;
+  height: 79vh;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+  font-size: 22px;
+  
+  h1{
+    font-size: 67px;
   }
 }
+
+.overlay{
+  position: absolute;
+  top: 111px;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  height: 79vh;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.exploretitle{
+  /* color: rgb(26 145 90 / 1); */
+  color: rgb(16 99 61 / 1);
+}
+
+.explorelink{
+  text-decoration: none;
+  color: rgb(16 99 61 / 1);
+  font-weight: 650;
+  font-size: 20px;
+}
+
+.configurebutton{
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  button{
+    margin-right: 35%;
+    width: 100px;
+    height: 30px;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #197149;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.secondnav{
+  position: sticky;
+  top:110px;
+  
+
+}
+
+.secondnavbuttons {
+
+  width: 100%;
+  /* background-color: aqua; */
+  height: 80px;
+  
+  
+  
+  
+  
+
+
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+.secondnavbuttons a:hover{
+  color: #197149;
+}
+
+.firstimage{
+  width: 100%;
+  /* height: 700px; */
+  /* background-color: #197149; */
+
+  .imgs{
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+  }
+
+  .unorderedlist{
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+
+}
+
+.footerlists{
+  li{
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    color: #197149;
+  }
+}
+
+
+
+
+ 
